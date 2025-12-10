@@ -36,6 +36,9 @@ jobs:
           version: 10
           standalone: true
 
+      - name: Fallback install pnpm globally
+        run: npm install -g pnpm@10
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
