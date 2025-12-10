@@ -38,8 +38,8 @@ import siteConfig from "./site.config";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://datvm.github.io/Theoblogy",
-	base: "/Theoblogy",
+	site: "https://theoblogy.lukevo.com",
+	base: undefined,
 	trailingSlash: "ignore",
 	i18n: {
 		...siteConfig.i18n,

@@ -6,7 +6,7 @@ const config = siteConfig({
 	author: {
 		name: "datvm",
 		email: "",
-		link: "https://datvm.github.io/Theoblogy"
+		link: "https://theoblogy.lukevo.com"
 	},
 	description: "A modern Astro-powered blog for theology and tech.",
 	copyright: {
