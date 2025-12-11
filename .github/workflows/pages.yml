@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Validate content frontmatter
+        run: node scripts/validate-frontmatter.mjs
+
       - name: Build
         run: pnpm run build
 
