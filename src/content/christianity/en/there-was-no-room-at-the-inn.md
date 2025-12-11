@@ -1,5 +1,5 @@
 ---
-title: "There Was No Room at the Inn… Or Was There No Inn at All?"
+title: "'There Was No Room in the Inn'… Or Was There No Inn at All?"
 timestamp: 2025-12-11T14:23:00.000Z
 tags:
   - Christianity
@@ -13,7 +13,7 @@ cover: "/img/no-room-at-the-inn.jpg"
 
 Christmas is coming and the familiar nativity story will be retold once again, almost certainly including these details:
 
-![There Was No Room at the Inn](/img/no-room-at-the-inn.jpg)
+![There Was No Room in the Inn](/img/no-room-at-the-inn.jpg)
 
 1. Joseph with a pregnant Mary traveled to Bethlehem rushing to find lodging because the baby was due any moment.
 2. "There was no room for them in the inn", demonstrated by the empathetic or mean-spirited innkeeper turning them away.
