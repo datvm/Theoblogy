@@ -32,30 +32,35 @@ const prefaces = (
 	})
 ).sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime());
 
-// Get published notes for current locale
-const notes = await getCollection("note", note => {
-	// Assign type property
-	Reflect.set(note, "type", "note");
+// Get published christianity posts for current locale
+let christianityPosts = [];
+try {
+	christianityPosts = await getCollection("christianity", post => {
+		Reflect.set(post, "type", "christianity");
+		let published = !post.data.draft;
+		let localed = monolocale || post.id.split("/")[0] === locale;
+		return published && localed;
+	});
+} catch (e) {
+	christianityPosts = [];
+}
 
-	// Filter by publication status and locale
-	let published = !note.data.draft;
-	let localed = monolocale || note.id.split("/")[0] === locale;
+// Get published technology posts for current locale
+let technologyPosts = [];
+try {
+	technologyPosts = await getCollection("technology", post => {
+		Reflect.set(post, "type", "technology");
+		let published = !post.data.draft;
+		let localed = monolocale || post.id.split("/")[0] === locale;
+		return published && localed;
+	});
+} catch (e) {
+	technologyPosts = [];
+}
 
-	// Filter published notes by current locale
-	return published && localed;
-});
-
-// Get published jottings for current locale
-const jottings = await getCollection("jotting", jotting => {
-	// Assign type property
-	Reflect.set(jotting, "type", "jotting");
-
-	// Check monolocale setup or extract language to match locale
-	let localed = monolocale || jotting.id.split("/")[0] === locale;
-
-	// Filter published notes by current locale
-	return !jotting.data.draft && localed;
-});
+// Keep `notes` and `jottings` variables for compatibility with components (map to new sections)
+const notes = christianityPosts;
+const jottings = technologyPosts;
 
 // Combine contents
 let items: { id: string; type?: string; data: { timestamp: Date; tags?: string[]; [key: string]: any } }[] = [];
@@ -64,8 +69,8 @@ let items: { id: string; type?: string; data: { timestamp: Date; tags?: string[]
 const sections = config.latest || "*";
 
 // Add contents based on config
-if (sections === "*" || sections.includes("note")) items = items.concat(notes);
-if (sections === "*" || sections.includes("jotting")) items = items.concat(jottings);
+if (sections === "*" || sections.includes("christianity")) items = items.concat(christianityPosts);
+if (sections === "*" || sections.includes("technology")) items = items.concat(technologyPosts);
 
 // Get the latest content for display
 const latest = items.sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime())[0];
@@ -74,12 +79,23 @@ const latest = items.sort((a, b) => b.data.timestamp.getTime() - a.data.timestam
 const preface = prefaces[0];
 // Render preface content if available, otherwise use empty object
 const { Content } = preface ? await render(preface) : ({} as any);
+// Localized prologue text (fallback to global config.prologue)
+const prologueText = t("prologue") || config.prologue;
+// Locale switch: label and target locale/url
+const otherLocale = locale === "en" ? "vi" : "en";
+const localeSwitchLabel = locale === "en" ? "Phiên bản tiếng Việt →" : "English version →";
+const otherUrl = getRelativeLocaleUrl(otherLocale, "/");
 ---
 
 <Base title={t("navigation.home")} {locale}>
 	<main class="flex flex-col gap-5 sm:gap-20 grow">
 		<header class="flex items-center justify-center flex-wrap-reverse grow-[0.6]">
-			{config.prologue && <article class="me-auto font-cursive font-thin text-xl sm:text-2xl leading-loose whitespace-pre-line">{config.prologue}</article>}
+			{prologueText && (
+				<div class="me-auto">
+					<article class="font-cursive font-thin text-xl sm:text-2xl leading-loose whitespace-pre-line">{prologueText}</article>
+					<a href={otherUrl} class="text-sm text-secondary mt-1 inline-block">{localeSwitchLabel}</a>
+				</div>
+			)}
 			<Logo width={100} />
 		</header>
 

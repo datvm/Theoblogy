@@ -33,8 +33,9 @@
 		}
 
 		a {
-			text-decoration: underline transparent 0.05em;
+			text-decoration: underline currentColor 0.05em;
 			text-underline-offset: 0.15em;
+			text-decoration-style: dashed;
 			transition: text-decoration-color 0.15s ease-in-out;
 
 			&:hover {

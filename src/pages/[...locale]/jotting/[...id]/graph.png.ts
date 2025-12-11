@@ -4,7 +4,7 @@ import config, { monolocale } from "$config";
 import graph from "$graph/content";
 
 export async function getStaticPaths() {
-	const jottings = await getCollection("jotting", jotting => !jotting.data.draft);
+	const jottings = await getCollection("technology", jotting => !jotting.data.draft);
 
 	return jottings.map(jotting => {
 		let locale: string | undefined;
@@ -36,7 +36,7 @@ export async function getStaticPaths() {
 export const GET: APIRoute = async ({ params, props }) => {
 	const image = await graph({
 		locale: params.locale || config.i18n.defaultLocale,
-		type: "jotting",
+		type: "technology",
 		site: config.title,
 		author: config.author.name,
 		title: props.title,

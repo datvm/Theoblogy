@@ -66,11 +66,9 @@ if (copyright.type === "CC0 1.0") {
 
 // Fetch notes and jottings collections to calculate total word count
 
-const notes = await getCollection("note", note => {
-	// Filter by publication status and locale
+const notes = await getCollection("christianity", note => {
 	let published = !note.data.draft;
 	let localed = monolocale || note.id.split("/")[0] === locale;
-
 	return published && localed;
 });
 
@@ -80,11 +78,9 @@ const noteWords = (await Promise.all(notes.map(async note => (await render(note)
 	0
 );
 
-const jottings = await getCollection("jotting", jotting => {
-	// Filter by publication status and locale
+const jottings = await getCollection("technology", jotting => {
 	let published = !jotting.data.draft;
 	let localed = monolocale || jotting.id.split("/")[0] === locale;
-
 	return published && localed;
 });
 

@@ -27,11 +27,13 @@ language: English
 navigation:
   about: About
   home: Home
-  jotting: Jotting
-  note: Note
+  christianity: Christianity
+  tech: Technology
   policy: Policy
   preface: Preface
   subscription: Subscription
+
+prologue: "Reflections on Christianity, theology, and technology."
 note:
   contents: Contents
   empty: No notes available

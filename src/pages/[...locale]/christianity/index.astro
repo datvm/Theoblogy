@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import config, { monolocale } from "$config";
+import Base from "$layouts/Base.astro";
+import Note from "$components/Note.svelte";
+import i18nit from "$i18n";
+
+export async function getStaticPaths() {
+	return config.i18n.locales.map(locale => ({ params: { locale: config.i18n.defaultLocale === locale ? undefined : locale } }));
+}
+
+const { locale = config.i18n.defaultLocale } = Astro.params;
+
+const t = i18nit(locale);
+
+const posts = await getCollection("christianity", post => {
+	let published = !post.data.draft;
+	let localed = monolocale || post.id.split("/")[0] === locale;
+	return published && localed;
+});
+
+let list = posts.map(post => ({
+	id: post.id,
+	data: {
+		title: post.data.title,
+		timestamp: post.data.timestamp,
+		series: post.data.series,
+		tags: post.data.tags,
+		sensitive: post.data.sensitive,
+		top: post.data.top
+	}
+}));
+
+const series = Array.from(new Set(posts.map(p => p.data.series).filter(Boolean))).sort();
+const tags = Array.from(new Set(posts.flatMap(p => p.data.tags).filter(Boolean))).sort();
+---
+
+<Base title={t("navigation.christianity")} {locale}>
+	<main class="flex flex-col grow">
+		<Note client:load {locale} notes={list} {series} {tags} section="christianity" />
+	</main>
+</Base>

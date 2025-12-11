@@ -41,39 +41,31 @@ export const GET: APIRoute = async ({ site, params }) => {
 	// Determine which sections to include
 	const sections = config.feed?.section || "*";
 
-	if (sections === "*" || sections.includes("note")) {
-		const notes = await getCollection("note", note => {
-			// Apply filtering criteria
-			const published = !note.data.draft; // Exclude draft posts
-			const localed = monolocale || note.id.split("/")[0] === language; // Language filter
-
-			// Include note only if it passes all filters
+	if (sections === "*" || sections.includes("christianity")) {
+		const notes = await getCollection("christianity", note => {
+			const published = !note.data.draft;
+			const localed = monolocale || note.id.split("/")[0] === language;
 			return published && localed;
 		});
 
-		// Attach locale and link for each note
 		notes.forEach(note => {
 			const id = monolocale ? note.id : note.id.split("/").slice(1).join("/");
-			Reflect.set(note, "link", new URL(getRelativeLocaleUrl(language, `/note/${id}`), site).toString());
+			Reflect.set(note, "link", new URL(getRelativeLocaleUrl(language, `/christianity/${id}`), site).toString());
 		});
 
 		items.push(...notes);
 	}
 
-	if (sections === "*" || sections.includes("jotting")) {
-		const jottings = await getCollection("jotting", jotting => {
-			// Apply filtering criteria
-			const published = !jotting.data.draft; // Exclude draft posts
-			const localed = monolocale || jotting.id.split("/")[0] === language; // Language filter
-
-			// Include jotting only if it passes all filters
+	if (sections === "*" || sections.includes("technology")) {
+		const jottings = await getCollection("technology", jotting => {
+			const published = !jotting.data.draft;
+			const localed = monolocale || jotting.id.split("/")[0] === language;
 			return published && localed;
 		});
 
-		// Attach locale and link for each jotting
 		jottings.forEach(jotting => {
 			const id = monolocale ? jotting.id : jotting.id.split("/").slice(1).join("/");
-			Reflect.set(jotting, "link", new URL(getRelativeLocaleUrl(language, `/jotting/${id}`), site).toString());
+			Reflect.set(jotting, "link", new URL(getRelativeLocaleUrl(language, `/technology/${id}`), site).toString());
 		});
 
 		items.push(...jottings);

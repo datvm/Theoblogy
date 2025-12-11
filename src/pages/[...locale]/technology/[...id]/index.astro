@@ -1,0 +1,87 @@
+---
+import { render, getCollection } from "astro:content";
+import config, { monolocale } from "$config";
+import Time from "$utils/time";
+import Base from "$layouts/Base.astro";
+import TOC from "$components/TOC.astro";
+import Position from "$components/Position.astro";
+import Icon from "$components/Icon.svelte";
+import Sensitive from "$components/Sensitive.svelte";
+import i18nit from "$i18n";
+
+export async function getStaticPaths() {
+	const posts = await getCollection("technology", post => !post.data.draft);
+
+	return posts.map(post => {
+		let locale: string | undefined;
+		let id: string;
+
+		if (monolocale) {
+			locale = undefined;
+			id = post.id;
+		} else {
+			const [language, ...ids] = post.id.split("/");
+			locale = config.i18n.defaultLocale === language ? undefined : language;
+			id = ids.join("/");
+		}
+
+		return { params: { locale, id }, props: { post } };
+	});
+}
+
+const { locale = config.i18n.defaultLocale } = Astro.params;
+const { post } = Astro.props;
+
+const { Content, headings, remarkPluginFrontmatter: frontmatter } = await render(post);
+
+const t = i18nit(locale);
+---
+
+<Base title={post.data.title} {locale} description={post.data.description} article={{ timestamp: post.data.timestamp, section: post.data.series, tags: post.data.tags }}>
+	<main class="flex flex-col gap-6">
+		<header class="flex flex-col gap-4">
+			<h1>{post.data.title}</h1>
+			<div class="flex flex-col gap-3 sm:flex-row *:flex *:items-center *:gap-1 *:text-[0.875rem] *:text-secondary">
+				<time datetime={post.data.timestamp.toISOString()}><Icon name="lucide--calendar" />{Time(post.data.timestamp)}</time>
+				{
+					post.data.series && (
+						<span>
+							<Icon name="lucide--layers" />
+							{post.data.series}
+						</span>
+					)
+				}
+				{
+					!!post.data.tags?.length && (
+						<span>
+							<Icon name="lucide--hash" />
+							{post.data.tags?.join("; ")}
+						</span>
+					)
+				}
+				<span><Icon name="lucide--pilcrow" />{t("read.words", { words: frontmatter.words })}</span>
+			</div>
+			<hr class="border-b border-weak" />
+		</header>
+
+		<Sensitive {locale} back="/technology" sensitive={post.data.sensitive} client:load>
+			<div class="flex gap-5">
+				<section id="markdown-content" class="markdown"><Content /></section>
+				{
+					post.data.toc && (
+						<aside class="hidden sm:block sm:shrink-0 sm:w-[200px]">
+							<div class="sticky top-3 flex flex-col gap-1">
+								<h4>{t("note.contents")}</h4>
+								<nav class="overflow-y-auto">
+									<TOC {headings} />
+								</nav>
+							</div>
+						</aside>
+					)
+				}
+			</div>
+		</Sensitive>
+
+		<Position {locale} />
+	</main>
+</Base>

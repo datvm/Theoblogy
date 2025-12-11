@@ -8,21 +8,25 @@ import ThemeSwitcher from "./ThemeSwitcher.svelte";
 import Menu from "./Menu.svelte";
 
 let { locale, route }: { locale: string; route: string } = $props();
+// Track current locale reactively (SSR uses `locale`, CSR updates from URL)
+let currentLocale: string = $state("");
+// Active locale prefers URL-derived on client; falls back to SSR `locale`
+const activeLocale = $derived(currentLocale || locale);
 let search: string = "";
 
 // Normalize base for language switching when Astro is served under a base path (e.g., GitHub Pages)
 const base = (import.meta.env.BASE_URL ?? "").replace(/\/$/, "");
 
-const t = i18nit(locale);
+const t = $derived(i18nit(activeLocale));
 
 // Define home route and navigation routes configuration
-const homeRoute = getRelativeLocaleUrl(locale);
-const routes: { path: string; extra?: string[]; icon: `${string}--${string}`; label: string }[] = [
-	{ label: t("navigation.home"), path: homeRoute, extra: [getRelativeLocaleUrl(locale, "/preface")], icon: "lucide--tent" },
-	{ label: t("navigation.note"), path: getRelativeLocaleUrl(locale, "/note"), icon: "lucide--list" },
-	{ label: t("navigation.jotting"), path: getRelativeLocaleUrl(locale, "/jotting"), icon: "lucide--feather" },
-	{ label: t("navigation.about"), path: getRelativeLocaleUrl(locale, "/about"), icon: "lucide--at-sign" }
-];
+const homeRoute = $derived(getRelativeLocaleUrl(activeLocale));
+let routes: { path: string; extra?: string[]; icon: `${string}--${string}`; label: string }[] = $derived([
+	{ label: t("navigation.home"), path: homeRoute, extra: [getRelativeLocaleUrl(activeLocale, "/preface")], icon: "lucide--tent" },
+	{ label: t("navigation.christianity"), path: getRelativeLocaleUrl(activeLocale, "/christianity"), icon: "lucide--fish-symbol" },
+	{ label: t("navigation.tech"), path: getRelativeLocaleUrl(activeLocale, "/technology"), icon: "lucide--code" },
+	{ label: t("navigation.about"), path: getRelativeLocaleUrl(activeLocale, "/about"), icon: "lucide--at-sign" }
+]);
 
 /**
  * Check if a route is currently active based on the current route path
@@ -44,9 +48,9 @@ let navigator: HTMLElement | undefined = $state();
 
 // Extract path without locale prefix for language switching
 // Remove base and locale prefix to reuse the current path (with query) when switching locales
-let path: string | undefined = $derived(() => {
+let path = $derived(() => {
 	const routeWithoutBase = route.startsWith(base) ? route.slice(base.length) || "/" : route;
-	const localePrefix = `/${locale === config.i18n.defaultLocale ? "" : locale}`;
+	const localePrefix = `/${activeLocale === config.i18n.defaultLocale ? "" : activeLocale}`;
 	const withoutLocale = routeWithoutBase.startsWith(localePrefix) ? routeWithoutBase.slice(localePrefix.length) || "/" : routeWithoutBase;
 	const normalized = withoutLocale === "/" ? undefined : withoutLocale;
 	return normalized ? `${normalized}${search}` : undefined;
@@ -59,9 +63,19 @@ onMount(() => {
 	}
 
 	// Set up route tracking for page navigation with Swup integration
+	const parseLocaleFromPath = () => {
+		const routeWithoutBase = window.location.pathname.startsWith(base)
+			? window.location.pathname.slice(base.length) || "/"
+			: window.location.pathname;
+		const segment = routeWithoutBase.split("/").filter(Boolean)[0] || "";
+		const isKnown = (config.i18n.locales as readonly string[]).includes(segment);
+		return isKnown && segment !== config.i18n.defaultLocale ? segment : config.i18n.defaultLocale;
+	};
+
 	const updateRoute = () => {
 		route = window.location.pathname;
 		search = window.location.search;
+		currentLocale = parseLocaleFromPath();
 	};
 	if (window.swup) {
 		// Register route update hook if Swup is already available
@@ -94,7 +108,7 @@ onMount(() => {
 	<footer class="flex flex-col gap-2 sm:flex-row sm:gap-7">
 		<ThemeSwitcher />
 
-		<a href={getRelativeLocaleUrl(locale, "/feed.xml")} target="_blank" aria-label="Subscription" class="inline-flex"><Icon name="lucide--rss" /></a>
+		<a href={getRelativeLocaleUrl(activeLocale, "/feed.xml")} target="_blank" aria-label="Subscription" class="inline-flex"><Icon name="lucide--rss" /></a>
 
 		{#if !monolocale}
 			<Menu label="Language switcher">
@@ -103,7 +117,7 @@ onMount(() => {
 				{/snippet}
 				<div data-no-swup class="contents">
 					{#each config.i18n.locales as locale}
-						<a href={getRelativeLocaleUrl(locale as string, path)} lang={locale} aria-label={i18nit(locale)("language")}>{i18nit(locale)("language")}</a>
+						<a href={getRelativeLocaleUrl(locale as string, path as any)} lang={locale} aria-label={i18nit(locale)("language")}>{i18nit(locale)("language")}</a>
 					{/each}
 				</div>
 			</Menu>

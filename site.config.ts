@@ -2,13 +2,13 @@ import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
 	title: "Theoblogy",
-	prologue: "Reflections on faith, theology, and technology.",
+	prologue: "Reflections on Christianity, theology, and technology.",
 	author: {
-		name: "datvm",
+		name: "Luke Vo",
 		email: "",
 		link: "https://theoblogy.lukevo.com"
 	},
-	description: "A modern Astro-powered blog for theology and tech.",
+	description: "Reflections on Christianity, theology, and technology.",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
 		year: "2025"
