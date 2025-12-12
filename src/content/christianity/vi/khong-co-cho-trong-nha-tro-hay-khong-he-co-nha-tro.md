@@ -87,7 +87,9 @@ Vì vậy, khả năng cao là sự việc xảy ra như thế này:
 > Vì hay 'bị' đố Kinh Thánh nên tôi nhấn mạnh là chỉ có một thiên sứ báo tin, rồi sau đó mới có "một đạo thiên binh" xuất hiện tôn vinh Chúa. _Cả_ Kinh Thánh cũng không có chỗ nào đề cập là thiên sứ _hát_, nhưng 'tôn vinh' có thể bao gồm hát.
 
 Ngoài ra ở đây không có nhà thông thái (Magi) nào cả vì họ đến sau đó rất lâu, được mô tả trong Ma-thi-ơ chương 2. Tôi cũng muốn phân tích về danh tính của họ trong một bài viết khác.
+
 5. Lu-ca 2\:22: Có thể là vào ngày thứ 41 sau khi sinh Chúa Jesus (theo Luật trong Lê-vi Ký 12), họ đi từ Bết-lê-hem đến Giê-ru-sa-lem. Chuyến đi này chỉ khoảng 8km, đi bộ trong nửa ngày là đến.
+
 6. Lu-ca 2\:39: Ở đây có thể có hai cách hiểu, theo tôi thì cái nào cũng có thể đúng và không mâu thuẫn với các Kinh Thánh khác:
 - Họ trở về Na-xa-rét rồi sau đó trở lại Bêt-lê-hem khi nhà thông thái đến. Tôi nghiêng về cách này hơn vì phù hợp với cách đọc thông thường của câu này.
 - Tác giả Lu-ca bỏ qua thời gian gia đình Chúa ở Ai Cập và mô tả ngay đến thời gian khi họ trở về Na-xa-rét từ Ai Cập.
