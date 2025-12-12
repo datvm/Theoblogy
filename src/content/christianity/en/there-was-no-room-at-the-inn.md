@@ -38,7 +38,7 @@ The idea that Mary was about to give birth when they arrived in Bethlehem is unl
 
 The ESV and NASB [](https://www.biblegateway.com/verse/en/Luke%202%3A7) render Luke 2\:7 as:
 
-> [...] διότι οὐκ ἦν αὐτοῖς τόπος ἐν τῷ **καταλύματι**.
+> [...] διότι οὐκ ἦν αὐτοῖς τόπος ἐν τῷ **καταλύματι**. [](https://www.biblegateway.com/passage/?search=Luke%202%3A7&version=SBLGNT)
 > 
 > [...] because there was no place for them in the **inn**.
 
@@ -70,6 +70,9 @@ Remember that Joseph and Mary went to **his hometown** due to the census (v. 3-4
 > [!IMPORTANT]  
 > Jewish hospitality customs would have made it a **scandal** for relatives to turn away a pregnant Mary.
 
+> [!TIP/FUN FACT]  
+> This custom persisted into the post-apostolic period where believers were urged to show hospitality to traveling Christians, especially missionaries. However, it was also abused. One of the earliest surviving Christian documents, the Didache (c. 100 AD) [see Chapter 11](https://www.earlychristianwritings.com/text/didache-hoole.html), warned and instructed believers on this matter.
+
 Therefore, the events likely unfolded like this:
 1. Luke 2\:1-5: Joseph and Mary traveled to Bethlehem for the census, way before Mary was due to give birth (or at least there was no rush). They arrived and stayed with Joseph's relatives.
 2. Luke 2\:6\: They stayed there until it was time for Mary to give birth.
@@ -86,7 +89,6 @@ Therefore, the events likely unfolded like this:
 Also, no wise men (Magi) were present here. They arrived later, as described in Matthew 2. I hope to cover who the Magi may be in another article.
 
 5. Luke 2\:22: Likely on the 41st day after Jesus' birth (Leviticus 12), they went from Bethlehem to Jerusalem. The trip is about 5 miles (8km) and would take around half a day at most.
-
 6. Luke 2\:39: Either interpretation seems fine to me:
 - They returned to Nazareth, then came back to Bethlehem later during the visit of the Magi. I think this is more plausible and matches the plain reading of this verse.
 - Luke simply skipped over the Egypt part and jumped to when they settled in Nazareth.
@@ -96,7 +98,7 @@ Also, no wise men (Magi) were present here. They arrived later, as described in 
 > [!WARNING]  
 > I will admit I needed an AI assistant to help me find the earliest source of the "innkeeper" detail so I may be wrong here but hey, they are just a better search engine if I verify the sources, right? On a serious note, do you know any earlier source than what I found? Please let me know.
 
-Apparently the "inn" and "innkeeper" details did not appear in any writing before the 14th century, from plays like [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (c. 1370-1400) and [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (c. 1460). The story seems to have become popularized through these plays across Europe. Soon, paintings followed suit, then Victorian (1800-1900s) churches had nativity scenes with the inn and innkeeper as standard elements. Our favorite hymns like "O Little Town of Bethlehem" and "Away in a Manger" further cemented this narrative.
+Apparently the "inn" and "innkeeper" details did not appear in any writing _before the 14th century_, from plays like [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (c. 1370-1400) and [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (c. 1460). The story seems to have become popularized through these plays across Europe. Soon, paintings followed suit, then Victorian (1800-1900s) churches had nativity scenes with the inn and innkeeper as standard elements. Our favorite hymns like "O Little Town of Bethlehem" and "Away in a Manger" further cemented this narrative.
 
 ---
 
