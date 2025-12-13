@@ -16,10 +16,10 @@ Christmas is coming and the familiar nativity story will be retold once again, a
 ![There Was No Room in the Inn](/img/no-room-at-the-inn.jpg)
 
 1. Joseph with a pregnant Mary traveled to Bethlehem rushing to find lodging because the baby was due any moment.
-2. "There was no room for them in the inn", demonstrated by the empathetic or mean-spirited innkeeper turning them away.
+2. "There was no room for them in the inn", demonstrated by a sometimes empathetic, sometimes mean-spirited innkeeper turning them away.
 3. Fortunately, a kind stranger or sometimes the innkeeper himself offers them a stable or a cave where Mary gives birth to Jesus.
 
-Except if you read Luke 2, specifically only verses 6-7 that supposedly describe this scene, none of the above is actually stated. So where did these details come from, and are they historically accurate?
+However, if you read Luke 2, specifically only verses 6-7 that supposedly describe this scene, none of the above is actually stated. So where did these details come from, and are they historically accurate?
 
 ## Mary was due to give birth right away?
 
@@ -27,7 +27,7 @@ Luke 2\:6 (NIV) states:
 
 > While they were there, the time came for the baby to be born, [](https://www.biblegateway.com/passage/?search=Luke%202%3A6&version=NIV)
 
-The idea that Mary was about to give birth when they arrived in Bethlehem is unlikely because:
+The idea that Mary was about to give birth when they arrived in Bethlehem is unlikely for several reasons:
 
 1. Censuses in the Roman Empire were not "surprise" inspections. They were announced well in advance and there was plenty of time to prepare for travel [](https://www.ons.gov.uk/census/2011census/howourcensusworks/aboutcensuses/censushistory/censustakingintheancientworld).
 2. The journey from Nazareth to Bethlehem is approximately 70 miles (112 km), which would take around 4 days on foot. It is unlikely that Mary would have traveled that late in her pregnancy.
@@ -73,18 +73,18 @@ Remember that Joseph and Mary went to **his hometown** due to the census (v. 3-4
 > [!TIP/FUN FACT]  
 > This custom persisted into the post-apostolic period where believers were urged to show hospitality to traveling Christians, especially missionaries. However, it was also abused. One of the earliest surviving Christian documents, the Didache (c. 100 AD) [see Chapter 11](https://www.earlychristianwritings.com/text/didache-hoole.html), warned and instructed believers on this matter.
 
-Therefore, the events likely unfolded like this:
+Putting the textual and historical evidence together, the events likely unfolded like this:
 1. Luke 2\:1-5: Joseph and Mary traveled to Bethlehem for the census, way before Mary was due to give birth (or at least there was no rush). They arrived and stayed with Joseph's relatives.
 2. Luke 2\:6\: They stayed there until it was time for Mary to give birth.
-3. Luke 2\:7: With the house full of relatives and visitors for the census, there was no room in the _guest room_ (`καταλύματι`) so Mary went to the lower part of the house, which was the 'stable' area where animals were kept, with a manger for feeding.
+3. Luke 2\:7: With the house full of relatives and visitors for the census, there was no room in the _guest room_ (`καταλύματι`) so Mary went to the lower part of the house, which was the 'stable' area where animals were kept in a general Galilean home.
 
 > [!NOTE]  
-> More details on what the "manger" and "stable" could be will be covered in another article.
+> More details on what the "manger" and "stable" will be covered in another article.
 
 4. Luke 2\:8-20: The shepherds got the news from the **angel** and visited the newborn Jesus.
 
 > [!TIP/FUN FACT]  
-> Only one angel appeared and spoke to the shepherds before a multitude of angels appeared to praise God (in verse 13). I just want to write this here because this keeps popping up in Christmas quizzes.
+> Only one angel appeared and spoke to the shepherds before a multitude of angels appeared to praise God (in verse 13). I just want to write this here because this keeps popping up in Christmas quizzes. Also nowhere in the whole Bible actually says angels "sing" though "praise" may involve singing.
 
 Also, no wise men (Magi) were present here. They arrived later, as described in Matthew 2. I hope to cover who the Magi may be in another article.
 
@@ -96,9 +96,15 @@ Also, no wise men (Magi) were present here. They arrived later, as described in 
 ## Whence camest thou, innkeeper?
 
 > [!WARNING]  
-> I will admit I needed an AI assistant to help me find the earliest source of the "innkeeper" detail so I may be wrong here but hey, they are just a better search engine if I verify the sources, right? On a serious note, do you know any earlier source than what I found? Please let me know.
+> I needed AI assistance to help me find the earliest source of the "innkeeper" detail so I may be wrong here. I consider AI to be a better search-engine and I apply the same diligence when verifying information they provide just like Google or Bing. Do you know any earlier source than what I found? Please let me know.
 
-Apparently the "inn" and "innkeeper" details did not appear in any writing _before the 14th century_, from plays like [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (c. 1370-1400) and [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (c. 1460). The story seems to have become popularized through these plays across Europe. Soon, paintings followed suit, then Victorian (1800-1900s) churches had nativity scenes with the inn and innkeeper as standard elements. Our favorite hymns like "O Little Town of Bethlehem" and "Away in a Manger" further cemented this narrative.
+Apparently no clear "inn" and "innkeeper" details appeared in any writing _before the 14th century_, from plays like [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (c. 1370-1400) and [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (c. 1460). The story seems to have become popularized through these plays across Europe. Soon, paintings followed suit, then Victorian (1800-1900s) churches had nativity scenes with the inn and innkeeper as standard elements. Our favorite hymns like "O Little Town of Bethlehem" and "Away in a Manger" further cemented this narrative.
+
+## Conclusion
+
+While it's likely that our Savior wasn't rejected by an innkeeper but rather welcomed by relatives in Bethlehem, it does not mean he was any less humble. The King of kings was born in a lowly setting, literally and figuratively, so that we may be lifted up to be children of The Most High.
+
+This Christmas, we can still celebrate the beautiful truth of Jesus' humble birth - bar the familiar but historically inaccurate "no room at the inn" details: He came _tabernacl-ing_ among us [John 1\:14], into a world full of darkness and sins, for God so loved the world, that whoever believes in Him shall not perish but have eternal life.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "'Quán trọ không còn chỗ', hay là không hề có quán trọ?"
-timestamp: 2025-12-11T00:00:00.000Z
+timestamp: 2025-12-12T15:37:00.000Z
 tags:
   - Cơ đốc
   - Giáng Sinh
@@ -11,7 +11,7 @@ description: "Tính đúng đắn lịch sử của chi tiết 'quán trọ khô
 
 [English version](/christianity/there-was-no-room-at-the-inn/)
 
-Giáng Sinh năm nay sắp đến và câu chuyện Giáng Sinh quen thuộc lại sắp được diễn tả qua lời kể hay kịch và múa. Và thường thì chắc chắn sẽ không thiếu các chi tiết sau:
+Giáng Sinh năm nay sắp đến và câu chuyện Giáng Sinh quen thuộc lại được diễn tả qua lời kể hay kịch và múa. Và thường thì chắc chắn sẽ không thiếu các chi tiết sau:
 
 ![Quán trọ không còn chỗ](/img/no-room-at-the-inn.jpg)
 
@@ -27,7 +27,7 @@ Lu-ca 2\:6 (NVB) chép:
 
 > Trong khi ở đó Ma-ri chuyển bụng sinh nở. [](https://www.biblegateway.com/passage/?search=Luke%202%3A6&version=NVB)
 
-Thực tế rất khó xảy ra là Ma-ri sắp phải sinh Chúa Jesus ngay lập tức bởi vì:
+Thực tế rất khó xảy ra là Ma-ri sắp phải sinh Chúa Jesus ngay lập tức bởi vì các lý do:
 
 1. Kiểm tra dân số ở Đế quốc La Mã không phải làm bất ngờ. Thường họ được thông báo trước rất lâu và dân chúng có nhiều thời gian để chuẩn bị và đi lại nếu cần [](https://www.ons.gov.uk/census/2011census/howourcensusworks/aboutcensuses/censushistory/censustakingintheancientworld).
 2. Hành trình đi từ Na-xa-rét đến Bết-lê-hem khoảng 110km, đi đường bộ khoảng 4 ngày. Giô-sép rất ít khả năng chọn thời điểm di chuyển khi vợ mang thai gần ngày sinh đến vậy.
@@ -68,15 +68,15 @@ Và nếu không có quán trọ thì làm sao có **chủ quán trọ** đuổi
 Chúng ta nhớ rằng Giô-sép và Ma-ri đến **quê quán của Giô-sép** vì cuộc kiểm tra dân số (Lu-ca 2\:3-4). Điều này cho thấy Giô-sép có nhà hoặc bà con ở Bêt-lê-hem để ở nhờ.
 
 > [!IMPORTANT]  
-> Phong tục người Do Thái bắt buộc bà con phải đón tiếp khách đến nhà mình. Nếu bà con của Giô-sép từ chối tiếp đón Ma-ri đang mang thai sẽ khiến họ mang tiếng xấu trong cả cộng đồng.
+> Phong tục hiếu khách của người Do Thái bắt buộc bà con phải đón tiếp khách đến nhà mình. Nếu bà con của Giô-sép từ chối tiếp đón Ma-ri đang mang thai sẽ khiến họ mang tiếng xấu trong cả cộng đồng.
 
 > [!TIP/BIẾT THÊM]  
 > Phong tục này vẫn được duy trì cho đến thời sau Chúa và các sứ đồ. Các tín hữu được khuyến khích tiếp đón anh em trong Chúa đi đường, đặc biệt là các nhà truyền giáo. Tuy nhiên, phong tục này bị lạm dụng đến nỗi trong một trong những tài liệu Cơ đốc sớm nhất còn tồn tại - Didache (khoảng năm 100 Sau Chúa) [xem chương 11](https://www.earlychristianwritings.com/text/didache-hoole.html) - đã cảnh báo và hướng dẫn các tín hữu về vấn đề này.
 
-Vì vậy, khả năng cao là sự việc xảy ra như thế này:
+Dựa trên các phân tích ngữ cảnh và lịch sử, sự việc có thể xảy ra như thế này:
 1. Lu-ca 2\:1-5: Giô-sép và Ma-ri về quê Bết-lê-hem để tuân lệnh kiểm tra dân số, có thể khá lâu trước ngày dự sinh của Ma-ri (không phải gấp rút). Họ đến ở nhờ nhà bà con của Giô-sép.
 2. Lu-ca 2\:6: Họ ở đó cho đến khi Ma-ri sinh Chúa Jesus.
-3. Lu-ca 2\:7: Vì có nhiều bà con cũng về quê vì kiểm tra dân số, _phòng khách_ (`καταλύματι`) trong nhà chật chội không có chỗ cho Ma-ri sinh con, nên họ đi xuống chuồng gia súc để sinh con. Chuồng gia súc cũng là nơi có máng cỏ để cho ăn.
+3. Lu-ca 2\:7: Vì có nhiều bà con cũng về quê vì kiểm tra dân số, _phòng khách_ (`καταλύματι`) trong nhà chật chội không có chỗ cho Ma-ri sinh con, nên họ đi xuống chuồng gia súc để sinh con. Chuồng gia súc là nơi thường có ở tầng "trệt" của nhà dân ở Ga-li-lê thời đó.
 
 > [!NOTE]  
 > Chi tiết "Chuồng chiên" hay "máng cỏ" sẽ được phân tích trong một bài viết khác.
@@ -99,8 +99,13 @@ Ngoài ra ở đây không có nhà thông thái (Magi) nào cả vì họ đế
 > [!WARNING]  
 > Đoạn này tôi nhờ AI hỗ trợ tìm nguồn ghi chép sớm nhất nhắc đến "quán trọ" và "chủ quán trọ" nên có thể không hoàn toàn chính xác. Cá nhân tôi xem rằng AI là một search-engine tốt hơn và cũng giống như Google hay Bing, tôi phải kiểm chứng nguồn nó cung cấp. Nếu bạn phát hiện có nguồn nào sớm hơn, xin cho tôi biết.
 
-Chi tiết "quán trọ" hoặc "chủ quán trọ" không được tìm thấy trong bất cứ ghi chép nào _trước thế kỷ 14_. Các kịch thời trung cổ (Medieval plays/fairs) dựng lên chi tiết này: [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (khoảng năm 1370-1400) và [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (khoảng năm 1460). Chi tiết này được phổ biến rộng rãi khắp châu Âu qua các vở kịch (tưởng tượng kịch thời đó giống như là mạng xã hội ngày nay). Rồi tranh vẽ cũng theo đó xuất hiện và đỉnh cao là vào thời Victoria (1800-1900s), các nhà thờ dựng cảnh Giáng Sinh đều có quán trọ và chủ quán trọ. Trước thời chúng ta thì có các thánh ca như "Ô Bết-lê-hem Ấp Nhỏ" (O Little Town of Bethlehem) và "Bài ca Máng cỏ" (Away in a Manger) cũng góp phần củng cố chi tiết này.
+Chi tiết "quán trọ" hoặc "chủ quán trọ" không được tìm thấy trong bất cứ ghi chép nào _trước thế kỷ 14_. Các kịch thời trung cổ (Medieval plays/fairs) dựng lên chi tiết này: [York Mystery Plays](https://www.yorkmysteryplays.co.uk/) (khoảng năm 1370-1400) và [The N-Town Plays](https://metseditions.org/read/er3y7rpTWMDwt7xmc4AbptENW30GjXL) (khoảng năm 1460). Chi tiết này được phổ biến rộng rãi khắp châu Âu qua các vở kịch (kịch thời đó giống như là mạng xã hội ngày nay). Rồi tranh vẽ cũng theo đó xuất hiện và đỉnh cao là vào thời Victoria (1800-1900s), các nhà thờ dựng cảnh Giáng Sinh đều có quán trọ và chủ quán trọ. Trước thời chúng ta thì có các thánh ca như "Ô Bết-lê-hem Ấp Nhỏ" (O Little Town of Bethlehem) và "Bài ca Máng cỏ" (Away in a Manger) cũng góp phần củng cố chi tiết này.
 
+## Kết luận
+
+Mặc dù Chúa Jesus có lẽ không bị từ chối bởi chủ quán trọ mà còn được đón tiếp trong vòng tay của gia đình ở Bết-lê-hem, chi tiết này chẳng làm cho Ngài kém phần khiêm nhường. Vị Vua trên muôn vua sinh ra trong cảnh thấp hèn để chúng ta được nâng lên làm con của Đấng Tối Cao.
+
+Giáng Sinh này, chúng ta vẫn có thể vui mừng kỷ niệm sự Giáng Sinh khiêm nhường của Chúa Jesus (dù không nên có chi tiết 'quán trọ' quen thuộc): Ngài đã đến _ở giữa_ chúng ta [Giăng 1\:14], trong một thế giới đầy tối tăm và tội lỗi, vì Đức Chúa Trời yêu thương thế gian, để ai tin vào Ngài sẽ không bị hư mất mà được sự sống đời đời.
 
 ---
 
