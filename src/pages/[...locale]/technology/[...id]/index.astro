@@ -37,7 +37,7 @@ const { Content, headings, remarkPluginFrontmatter: frontmatter } = await render
 const t = i18nit(locale);
 ---
 
-<Base title={post.data.title} {locale} description={post.data.description} article={{ timestamp: post.data.timestamp, section: post.data.series, tags: post.data.tags }}>
+<Base title={post.data.title} {locale} description={post.data.description} image={post.data.cover} imageAlt={post.data.coverAlt || post.data.title} article={{ timestamp: post.data.timestamp, section: post.data.series, tags: post.data.tags }}>
 	<main class="flex flex-col gap-6">
 		<header class="flex flex-col gap-4">
 			<h1>{post.data.title}</h1>

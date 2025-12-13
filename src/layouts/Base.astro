@@ -12,7 +12,7 @@ import "medium-zoom/dist/style.css";
 
 let route = Astro.url.pathname;
 
-const { locale = config.i18n.defaultLocale, title: subtitle, description = config.description, article } = Astro.props;
+const { locale = config.i18n.defaultLocale, title: subtitle, description = config.description, image, imageAlt, article } = Astro.props;
 const title = config.title;
 ---
 
@@ -39,7 +39,7 @@ const title = config.title;
 	document.addEventListener("astro:page-load", initialize);
 </script>
 
-<App {title} {subtitle} {description} {article} author={config.author.name}>
+<App {title} {subtitle} {description} {image} {imageAlt} {article} author={config.author.name}>
 	<Tip client:load />
 	<div class="flex flex-col mx-auto px-3 w-[min(100%,1000px)]">
 		<div id="body" class="flex flex-col min-h-screen">

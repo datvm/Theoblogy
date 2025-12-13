@@ -26,6 +26,8 @@ const christianity = defineCollection({
 		timestamp: z.date(),
 		tags: z.array(z.string()).optional(),
 		description: z.string().optional(),
+		cover: z.string().optional(),
+		coverAlt: z.string().optional(),
 		sensitive: z.boolean().default(false),
 		top: z.number().int().nonnegative().default(0),
 		draft: z.boolean().default(false)
@@ -43,6 +45,8 @@ const technology = defineCollection({
 		timestamp: z.date(),
 		tags: z.array(z.string()).optional(),
 		description: z.string().optional(),
+		cover: z.string().optional(),
+		coverAlt: z.string().optional(),
 		sensitive: z.boolean().default(false),
 		top: z.number().int().nonnegative().default(0),
 		draft: z.boolean().default(false)
