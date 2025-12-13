@@ -9,9 +9,6 @@ User-agent: archive.org_bot
 Allow: /
 Disallow: /cdn-cgi
 
-User-agent: *
-Disallow: /
-
 Sitemap: ${new URL("sitemap-index.xml", site)}
 `;
 
