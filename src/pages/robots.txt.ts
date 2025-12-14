@@ -2,8 +2,10 @@ import type { APIRoute } from "astro";
 
 export const GET: APIRoute = ({ site }) => {
 	const text = `
-User-agent: *
 User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
 Allow: /
 Disallow: /cdn-cgi
 
