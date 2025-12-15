@@ -1,0 +1,33 @@
+---
+interface Props {
+	url: string;
+	identifier: string;
+}
+
+const { url, identifier } = Astro.props;
+---
+
+<div id="disqus_thread" class="mt-8" data-page-url={url} data-page-identifier={identifier}></div>
+<script is:inline>
+    const el = document.querySelector("#disqus_thread");
+	const disqusPageUrl = el.getAttribute("data-page-url");
+	const disqusPageId = el.getAttribute("data-page-identifier");
+
+	window.disqus_config = function () {
+		this.page.url = disqusPageUrl;
+		this.page.identifier = disqusPageId;
+	};
+
+	(function () {
+		if (window.DISQUS) {
+			window.DISQUS.reset({ reload: true, config: window.disqus_config });
+			return;
+		}
+
+		var d = document, s = d.createElement("script");
+		s.src = "https://theoblogy-luke.disqus.com/embed.js";
+		s.setAttribute("data-timestamp", Date.now().toString());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

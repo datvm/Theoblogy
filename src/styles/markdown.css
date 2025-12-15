@@ -206,10 +206,11 @@
 		figure:has(img) {
 			display: inline-block;
 			vertical-align: top;
-			align-self: flex-start;
+			align-self: center;
 
 			img {
 				max-width: 100%;
+				max-height: 80vh;
 			}
 
 			figcaption {
