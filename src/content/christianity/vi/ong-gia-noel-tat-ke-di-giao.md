@@ -18,7 +18,7 @@ Tháng mười hai đến với những trang trí và lễ hội mùa Giáng Si
 
 ![Thánh Nicholas thành Myra](/img/StNicholasOfMyra.jpg)
 
-Hình ảnh ông già Noel được dựa trên một Thánh Cơ đốc nhân thật: St. (Thánh) Nicholas thành Myra (nay là quận Demre, Thổ Nhĩ Kỳ), sống vào thế kỷ thứ 4. Ông nổi tiếng vì sự rộng rãi với người nghèo: ông mồ côi khi còn trẻ và thừa kế gia tài khổng lồ từ cha mẹ, ông dùng số tiền đó để giúp đỡ những người khốn cùng. Ông cũng bị tù đày (hoặc một số ghi chép ghi là biệt giam) vì Đức tin vào Chúa Jesus cho đến khi Hoàng đế La Mã Constantine Đại Đế (Constantine the Great) công nhận Cơ đốc giáo là quốc giáo vào năm 313 Sau Chúa.
+Hình ảnh ông già Noel được dựa trên một Thánh Cơ đốc nhân thật: St. (Thánh) Nicholas thành Myra (nay là quận Demre, Thổ Nhĩ Kỳ), sống vào thế kỷ thứ 4. Ông nổi tiếng vì sự rộng rãi với người nghèo: ông mồ côi khi còn trẻ và thừa kế gia tài khổng lồ từ cha mẹ, ông dùng số tiền đó để giúp đỡ những người khốn cùng. Ông cũng bị tù đày (hoặc một số ghi chép ghi là biệt giam) vì Đức tin vào Chúa Jesus cho đến khi Hoàng đế La Mã Constantine Đại Đế (Constantine the Great) công nhận Cơ đốc giáo ~~là quốc giáo~~ là hợp pháp vào năm 313 Sau Chúa. [Đính chính: Cơ đốc giáo trở thành quốc giáo của La Mã vào năm 380 Sau Chúa dưới Theodosius I].
 
 Nhưng một giai thoại ít được biết đến là St. Nicholas từng tát một kẻ dị giáo vào mặt!
 
@@ -26,7 +26,7 @@ Nhưng một giai thoại ít được biết đến là St. Nicholas từng tá
 
 ## Người bảo vệ đức tin chống dị giáo Arian
 
-Sau khi Cơ đốc giáo được công nhận, Đế quốc La Mã lại bị chia rẽ bởi các giáo lý thần học trái ngược nhau nhưng nổi bật nhất là thuyết Arian, theo tên của giáo sứ Arius thành Alexandria. Thuyết này dạy rằng Chúa Jesus không cùng bản thể với Đức Chúa Cha, phủ nhận thần tính và từ đó phủ nhận luôn thuyết Ba Ngôi [](https://www.gotquestions.org/arianism.html).
+Sau khi Cơ đốc giáo được công nhận, Đế quốc La Mã lại bị chia rẽ bởi các giáo lý thần học trái ngược nhau nhưng nổi bật nhất là thuyết Arian, theo tên của giáo sứ Arius thành Alexandria. Thuyết này dạy rằng Chúa Jesus không cùng bản thể với Đức Chúa Cha, phủ nhận thần tính của Ngài và từ đó bác bỏ thuyết Ba Ngôi [](https://www.gotquestions.org/arianism.html).
 
 Để giải quyết các tranh cãi này, Hoàng đế Constantine triệu tập các lãnh đạo Cơ đốc từ khắp nơi đến Hội đồng Nicea thứ Nhất vào năm 325 Sau Chúa. Theo các truyền thống, tại hội đồng này, Arius đã trình bày rất dài về các quan điểm của mình, khiến các trưởng lão tham dự tức giận. St. Nicholas, được biết về sự mạnh mẽ trong việc bảo vệ đức tin chính thống, tin rằng các giáo lý thiết yếu đang bị tấn công. Khi không kiềm chế được nữa, ông đã **tát Arius vào mặt** để bày tỏ sự phẫn nộ của mình.
 
