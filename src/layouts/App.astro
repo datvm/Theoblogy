@@ -78,17 +78,14 @@ const notoFonts: Record<string, string> = {
 
 		{Astro.currentLocale && notoFonts[Astro.currentLocale] && <link rel="stylesheet" href={notoFonts[Astro.currentLocale]} />}
 
-		<!-- Google tag (gtag.js) loader -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6LQNTRWWQK"></script>
-
-		<script is:inline>
-			var theme = localStorage.getItem("theme");
-			if (theme) document.documentElement.dataset.theme = theme;
-
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZ83B4DT6M"></script>
+		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-			gtag('config', 'G-6LQNTRWWQK');
+
+			gtag('config', 'G-YZ83B4DT6M');
 		</script>
 	</head>
 	<body>
